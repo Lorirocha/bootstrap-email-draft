@@ -1,0 +1,24 @@
+.body {
+    background-color: rgb(150, 147, 147);
+ }
+ 
+
+.write-email-section{
+    height:98vh
+
+}
+
+
+@media(768px <= width <992px){
+    .write-email-section{
+        height: 54vh;
+        overflow-y: auto;
+    }
+}
+/* lg breakpoint and larger */
+@media(992px <= width){
+    .write-email-section{
+        overflow-y: auto;
+    }
+
+}
